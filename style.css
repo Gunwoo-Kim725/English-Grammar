@@ -27,7 +27,7 @@ h4 {
 .exp {
     font-family: inherit;
     color: black;
-    background-color: rgb(231, 230, 230);
+    background-color: rgb(222, 234, 246);
     font-size: 40px;
 }
 
@@ -52,6 +52,13 @@ h4 {
 .kor {
     color: rgb(56, 56, 56);
     font-size: 40px;
+}
+
+/* 단어 */
+.word {
+    color: rgb(56, 56, 56);
+    font-size: 40px;
+    background-color: rgb(231, 230, 230);
 }
 
 /* 링크 스타일 */

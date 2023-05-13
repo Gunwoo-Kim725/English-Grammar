@@ -2,61 +2,10 @@
 <html>
     <head>
         <title>CAN</title>
-        <style>
-            body {
-                padding: 20px; /* 위, 아래, 왼쪽, 오른쪽에 20px의 패딩을 추가합니다 */
-            }
-
-            /* 제목 1 */
-            h1 {
-                font-size: 70px;
-                text-align: center;
-            }
-
-            /* 제목 2 */
-            h2 {
-                font-size: 60px;
-            }
-
-            /* 제목 3 */
-            h3 {
-                font-size: 50px;
-            }
-
-            /* 해설 */
-            .exp {
-                font-family: inherit;
-                color: black;
-                background-color: rgb(231, 230, 230);
-                font-size: 40px;
-            }
-
-            /* 영어 문장 */
-            .audioText {
-                transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
-                font-family: Open Sans;
-                color: rgb(0, 112, 192);
-                font-size: 40px;
-            }
-
-            .audioText:hover {
-                /* 원하는 마우스 커서 스타일을 설정하세요 */
-                cursor: pointer;
-                /* 마우스를 올렸을 때의 배경색 */
-                background-color: rgb(0, 112, 192);
-                /* 마우스를 올렸을 때의 글자색 */
-                color: rgb(255, 255, 255);
-            }
-
-            /* 해석 */
-            .kor {
-                color: rgb(56, 56, 56);
-                font-size: 40px;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <a href="index.html">MAIN</a>
+        <a href="index.html" style="font-size: 40px">MAIN</a>
         <h1>조동사 CAN</h1>
 
         <h2>1. 능력 (ability)</h2>
@@ -89,22 +38,6 @@
         <audio id="audioPlayer3" src="003_1.mp3"></audio>
         <p class="kor">그 개들은 냄새로 마약을 찾아낼 수 있다.</p>
 
-        <script>
-            var currentAudioPlayer;
-
-            function playAudio(index) {
-                var audioPlayer = document.getElementById(
-                    "audioPlayer" + (index + 1)
-                );
-
-                if (currentAudioPlayer && !currentAudioPlayer.paused) {
-                    currentAudioPlayer.pause();
-                    currentAudioPlayer.currentTime = 0;
-                }
-
-                audioPlayer.play();
-                currentAudioPlayer = audioPlayer;
-            }
-        </script>
+        <script src="script.js"></script>
     </body>
 </html>

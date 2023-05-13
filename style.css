@@ -57,7 +57,7 @@ h4 {
 /* 링크 스타일 */
 a {
     display: block;
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(0, 0, 0); /* 기본 글자색 */
     background-color: white; /* 기본 배경색 */
     text-decoration-line: none;

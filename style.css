@@ -36,7 +36,7 @@ h4 {
     transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
     font-family: Open Sans;
     color: rgb(0, 112, 192);
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .audioText:hover {

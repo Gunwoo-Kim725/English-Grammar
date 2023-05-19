@@ -1,10 +1,10 @@
 body {
-    padding: 20px 55px; /* 위/아래, 왼쪽/오른쪽에 20px의 패딩을 추가합니다 */
+    margin: 100px 50px;
 }
 
 /* 제목 1 */
 h1 {
-    font-size: 70px;
+    font-size: 65px;
     text-align: center;
 }
 
@@ -30,34 +30,62 @@ h4 {
 u {
     /* text-decoration: none; */
     text-decoration-thickness: 1.4px;
-    color: red;
+    /* color: red; */
+}
+
+/* 영어 텍스트 */
+.audioText {
+    transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
+    margin: 15px 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    color: rgb(0, 112, 192);
+}
+
+.audioText:hover {
+    /* 원하는 마우스 커서 스타일을 설정하세요 */
+    cursor: pointer;
+    /* 마우스를 올렸을 때의 배경색 */
+    background-color: rgb(0, 112, 192);
+    /* 마우스를 올렸을 때의 글자색 */
+    color: rgb(255, 255, 255);
 }
 
 /* 해설 */
 .exp {
-    font-family: inherit;
     color: black;
     background-color: rgb(222, 234, 246);
+    margin: 15px 0;
     font-size: 40px;
+}
+
+/* 일반 영어 텍스트 */
+.eng {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    margin: 15px 0;
 }
 
 /* 해석 */
 .kor {
     color: rgb(0, 192, 80);
-    font-size: 40px;
+    font-size: 35px;
+    margin: 15px 0px;
 }
 
 /* 단어 */
 .word {
     color: rgb(56, 56, 56);
-    font-size: 40px;
     background-color: rgb(231, 230, 230);
+    font-size: 35px;
+    margin: 15px 0px;
 }
 
 /* 링크 스타일 */
 a {
     display: block;
-    font-size: 50px;
+    padding: 0px;
+    font-size: 40px;
     color: rgb(0, 0, 0); /* 기본 글자색 */
     background-color: white; /* 기본 배경색 */
     text-decoration-line: none;
@@ -69,48 +97,28 @@ a:hover {
     color: rgb(255, 255, 255); /* 변경된 글자색 */
 }
 
-/* 가로줄 */
-hr {
-    margin: 40px 0px;
-    border: none;
-    height: 10px;
-    background-color: blue;
-}
-
 /* 테이블 */
 table {
-    width: 100%;
+    /* width: 100%; */
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 td {
-    padding: 5px;
-    text-align: center;
+    /* padding: 5px; */
     vertical-align: top;
-    border: 1px solid black; /* 예시로 테두리를 추가하였습니다 */
+    border: 1px solid rgb(233, 233, 233); /* 예시로 테두리를 추가하였습니다 */
 }
 
-.contents {
+.chap-list {
+    padding: 0 40px;
     font-size: 40px;
-    text-align: center;
 }
 
-/* 영어 텍스트 */
-.audioText {
-    padding-left: 0px;
-    transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
-    font-family: Open Sans;
-    color: rgb(0, 112, 192);
-    font-size: 45px;
-}
-
-.audioText:hover {
-    /* 원하는 마우스 커서 스타일을 설정하세요 */
-    cursor: pointer;
-    /* 마우스를 올렸을 때의 배경색 */
-    background-color: rgb(0, 112, 192);
-    /* 마우스를 올렸을 때의 글자색 */
-    color: rgb(255, 255, 255);
+.subchap-list {
+    padding: 0 40px;
+    font-size: 40px;
 }
 
 /* 메뉴바 --------------------------------------------------------------------------- */
@@ -141,7 +149,7 @@ td {
     font-family: Open Sans;
     background-color: rgb(196, 236, 212);
     color: rgb(0, 192, 80);
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .m-btn:hover {

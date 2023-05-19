@@ -38,7 +38,7 @@ u {
     transition: background-color 0.3s, color 0.3s; /* 애니메이션 효과를 부드럽게 적용하기 위한 설정 */
     margin: 15px 0;
     font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(0, 112, 192);
 }
 
@@ -62,7 +62,7 @@ u {
 /* 일반 영어 텍스트 */
 .eng {
     font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
+    font-size: 30px;
     margin: 15px 0;
 }
 

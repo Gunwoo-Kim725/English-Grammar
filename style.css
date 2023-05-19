@@ -97,6 +97,12 @@ a:hover {
     color: rgb(255, 255, 255); /* 변경된 글자색 */
 }
 
+/* 주석 */
+.comment {
+    padding: 0px 10px;
+    border: 2px solid rgb(121, 121, 121);
+}
+
 /* 테이블 */
 table {
     /* width: 100%; */
